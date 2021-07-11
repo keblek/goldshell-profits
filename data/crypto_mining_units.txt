@@ -1,0 +1,22 @@
+hashes = 32 * bytes = hash = H
+
+LTC_block = 150 * seconds 
+
+USD = [currency]
+EUR = nan USD
+GBP = nan USD
+BTC = nan USD
+LTC = nan USD
+
+sats = 100000000 / LTC = sat
+
+@context CoinMetrics
+    BTC = 32000.01 USD
+    LTC = 150 USD
+@end
+
+@context FX
+    EUR = 1.11254 USD
+    GBP = 1.16956 EUR
+@end
+

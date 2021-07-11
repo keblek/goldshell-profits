@@ -1,6 +1,6 @@
 FROM continuumio/anaconda3
-RUN apt-get update
-RUN apt-get install -y tar git curl wget dialog net-tools build-essential
+RUN apt update
+RUN apt install -y tar git nano curl wget dialog net-tools build-essential
 RUN mkdir /data
 RUN conda install matplotlib
 RUN conda install pandas
