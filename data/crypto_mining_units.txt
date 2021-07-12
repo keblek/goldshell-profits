@@ -1,6 +1,8 @@
 hashes = 32 * bytes = hash = H
 
-LTC_block = 150 * seconds 
+LTC_block = 2.5 minutes
+BTC_block = 10 minutes 
+
 
 USD = [currency]
 EUR = nan USD
