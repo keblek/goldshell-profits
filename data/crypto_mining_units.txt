@@ -10,7 +10,7 @@ GBP = nan USD
 BTC = nan USD
 LTC = nan USD
 
-sats = 100000000 / LTC = sat
+sats = 100000000 / BTC = sat
 
 @context CoinMetrics
     BTC = 32000.01 USD
